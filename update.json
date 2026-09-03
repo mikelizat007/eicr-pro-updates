@@ -1,0 +1,10 @@
+{
+  "version": "3.0.0",
+  "versionCode": 1,
+  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/latest/download/EICR_Pro.apk",
+  "releaseNotes": [
+    "Initial hosted update manifest for EICR Pro",
+    "Future APK releases will use this same update endpoint"
+  ],
+  "mandatory": false
+}
