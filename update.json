@@ -1,10 +1,12 @@
 {
-  "version": "3.0.0",
-  "versionCode": 1,
+  "version": "4.0.0",
+  "versionCode": 40,
   "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/latest/download/EICR_Pro.apk",
   "releaseNotes": [
-    "Initial hosted update manifest for EICR Pro",
-    "Future APK releases will use this same update endpoint"
+    "GitHub-hosted in-app update system enabled",
+    "Improved PDF viewer and single-page zoom",
+    "Compact home dashboard improvements",
+    "Properties tile layout fix"
   ],
   "mandatory": false
 }
