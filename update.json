@@ -1,6 +1,6 @@
 {
-  "version": "4.0.1",
-  "versionCode": 41,
+  "version": "4.0.2",
+  "versionCode": 42,
   "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/latest/download/EICR_Pro.apk",
   "releaseNotes": [
     "Fixed Saved Client & Property selection",
