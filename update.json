@@ -1,11 +1,12 @@
 {
-  "version": "4.0.2",
-  "versionCode": 42,
-  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/latest/download/EICR_Pro.apk",
+  "version": "4.0.3",
+  "versionCode": 43,
+  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.3/EICR_Pro_4.0.3_43.apk",
   "releaseNotes": [
-    "Fixed Saved Client & Property selection",
-    "Improved Part 12 instrument library",
-    "EICR report corrections and stability improvements"
+    "Added an explicit not-tested/unavailable continuity result with a required reason and FI classification.",
+    "Fixed completion validation for valid radial R1+R2 values calculated from Zs minus Ze.",
+    "Kept N/A distinct from tests that could not be performed.",
+    "Improved circuit-result layouts on narrow phones, landscape screens and large text."
   ],
   "mandatory": false
 }
