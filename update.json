@@ -1,12 +1,13 @@
 {
-  "version": "4.0.3",
-  "versionCode": 43,
-  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.3/EICR_Pro_4.0.3_43.apk",
+  "version": "4.0.4",
+  "versionCode": 44,
+  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.4/EICR_Pro_4.0.4_44.apk",
   "releaseNotes": [
-    "Added an explicit not-tested/unavailable continuity result with a required reason and FI classification.",
-    "Fixed completion validation for valid radial R1+R2 values calculated from Zs minus Ze.",
-    "Kept N/A distinct from tests that could not be performed.",
-    "Improved circuit-result layouts on narrow phones, landscape screens and large text."
+    "Fixed circuit saving so unavailable continuity readings can remain blank when the correct result status and observation are recorded.",
+    "Added Test carried out - no result obtained for every non-spare circuit, with a required observation and FI classification.",
+    "Displays no-result readings as NR and not-tested readings as NT while keeping genuine N/A fields distinct.",
+    "Requires measured continuity results for ring circuits while accepting valid calculated R1+R2 results on radial circuits.",
+    "Preserves compatibility with existing reports, backups, report locking and history."
   ],
   "mandatory": false
 }
