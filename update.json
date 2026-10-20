@@ -1,13 +1,13 @@
 {
-  "version": "4.0.4",
-  "versionCode": 44,
-  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.4/EICR_Pro_4.0.4_44.apk",
+  "version": "4.0.5",
+  "versionCode": 45,
+  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.5/EICR_Pro_4.0.5_45.apk",
   "releaseNotes": [
-    "Fixed circuit saving so unavailable continuity readings can remain blank when the correct result status and observation are recorded.",
-    "Added Test carried out - no result obtained for every non-spare circuit, with a required observation and FI classification.",
-    "Displays no-result readings as NR and not-tested readings as NT while keeping genuine N/A fields distinct.",
-    "Requires measured continuity results for ring circuits while accepting valid calculated R1+R2 results on radial circuits.",
-    "Preserves compatibility with existing reports, backups, report locking and history."
+    "Fixed observation photographs showing in the app but not in the generated PDF.",
+    "Adds observation attachments to the PDF photographic-reference pages with observation number, code and location captions.",
+    "Keeps standalone reference photographs and observation photographs together without printing the same stored path twice.",
+    "Handles compatible phone image formats and skips missing or unreadable optional files without blocking PDF generation.",
+    "Preserves existing reports, backups, report locking and history."
   ],
   "mandatory": false
 }
