@@ -1,13 +1,13 @@
 {
-  "version": "4.0.5",
-  "versionCode": 45,
-  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.5/EICR_Pro_4.0.5_45.apk",
+  "version": "4.0.6",
+  "versionCode": 46,
+  "apkUrl": "https://github.com/mikelizat007/eicr-pro-updates/releases/download/v4.0.6/EICR_Pro_4.0.6_46.apk",
   "releaseNotes": [
-    "Fixed observation photographs showing in the app but not in the generated PDF.",
-    "Adds observation attachments to the PDF photographic-reference pages with observation number, code and location captions.",
-    "Keeps standalone reference photographs and observation photographs together without printing the same stored path twice.",
-    "Handles compatible phone image formats and skips missing or unreadable optional files without blocking PDF generation.",
-    "Preserves existing reports, backups, report locking and history."
+    "Observation photographs are now available from the shared Report photographs gallery throughout the report workflow.",
+    "Linked observations and photo evidence now appear on Circuit Schedule, Circuit Test Measurements, circuit result entry and Edit Circuit views.",
+    "Circuit Photos and Observations actions now open the linked evidence and show accurate counts.",
+    "Dashboard and report overview photo totals now include both general report photographs and observation evidence.",
+    "Preserves existing reports, backups, report locking and history, truthful no-result continuity records and PDF photo output."
   ],
   "mandatory": false
 }
